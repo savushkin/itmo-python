@@ -1,0 +1,46 @@
+#wrapper {
+  font-family: 'Open Sans', sans-serif;
+
+  .layout {
+    background-color: #424242;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    min-width: 640px;
+    min-height: 360px;
+    display: none;
+
+    &.step-1 {
+      //background: url(/static/app/img/common/bg.jpg) no-repeat center center;
+      &.active {
+        display: block;
+      }
+    }
+
+    &.step-2 {
+      &.active {
+        display: block;
+      }
+    }
+
+    &.game {
+      &.active {
+        display: block;
+      }
+
+      .container-fluid {
+
+        &:first-child {
+          margin-top: 15px;
+        }
+
+        .row {
+
+        }
+      }
+    }
+  }
+}

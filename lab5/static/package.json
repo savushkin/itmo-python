@@ -1,0 +1,23 @@
+{
+  "name": "itmo-python-lab5-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-animate": "^1.4.9",
+    "angular-aria": "^1.4.9",
+    "angular-messages": "^1.4.9",
+    "angular-resource": "^1.4.9",
+    "angular-route": "^1.4.9",
+    "angular-sanitize": "^1.5.2",
+    "bootstrap": "^3.3.6",
+    "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Savushkin",
+  "license": "ISC"
+}

@@ -1,0 +1,21 @@
+#wrapper {
+  font-family: 'Open Sans', sans-serif; }
+  #wrapper .layout {
+    background-color: #424242;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    min-width: 640px;
+    min-height: 360px;
+    display: none; }
+    #wrapper .layout.step-1.active {
+      display: block; }
+    #wrapper .layout.step-2.active {
+      display: block; }
+    #wrapper .layout.game.active {
+      display: block; }
+    #wrapper .layout.game .container-fluid:first-child {
+      margin-top: 15px; }
