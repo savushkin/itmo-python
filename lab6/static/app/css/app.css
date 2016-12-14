@@ -1,0 +1,26 @@
+#wrapper {
+  font-family: 'Open Sans', sans-serif; }
+  #wrapper .layout {
+    padding-top: 15px;
+    background-color: #424242;
+    min-height: 100vh; }
+    #wrapper .layout .menu {
+      position: fixed;
+      top: 15px;
+      right: 0; }
+    #wrapper .layout .records .list-group-item.record-item:hover {
+      z-index: 2;
+      color: #fff;
+      background-color: #337ab7;
+      text-shadow: 0 -1px 0 #286090;
+      background-image: -webkit-linear-gradient(top, #337ab7 0%, #2b669a 100%);
+      background-image: -o-linear-gradient(top, #337ab7 0%, #2b669a 100%);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2b669a));
+      background-image: linear-gradient(to bottom, #337ab7 0%, #2b669a 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2b669a', GradientType=0);
+      background-repeat: repeat-x;
+      border-color: #2b669a; }
+  #wrapper .pull-right {
+    margin-right: 5px; }
+  #wrapper img {
+    max-width: 100%; }
